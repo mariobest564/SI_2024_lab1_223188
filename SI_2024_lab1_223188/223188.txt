@@ -1,0 +1,66 @@
+5. git remote add origin https://github.com/mariobest564/SI_2024_lab1_223188
+
+6. C:\Users\mario\SI_2024_lab1_223188> echo. > README.md
+ C:\Users\mario\SI_2024_lab1_223188>notepad README.md
+ C:\Users\mario\SI_2024_lab1_223188> git commit -m "Initial commit"
+
+7. git clone https://github.com/stefanandonov/SI_2024.git
+   git pull origin master
+   C:\Users\mario\SI_2024_lab1_223188\SI_2024>move SILab1_1.java ..
+   C:\Users\mario\SI_2024_lab1_223188\SI_2024>move SILab1_2.java ..
+   C:\Users\mario\SI_2024_lab1_223188\SI_2024>move SILab1Main.java ..
+   C:\Users\mario\SI_2024_lab1_223188>git add SILab1_1.java
+   C:\Users\mario\SI_2024_lab1_223188>git add SILab1_2.java
+   C:\Users\mario\SI_2024_lab1_223188>git add SILab1Main.java
+   C:\Users\mario\SI_2024_lab1_223188>git commit -m "Add starter code" 
+
+8. C:\Users\mario\SI_2024_lab1_223188>git push origin master
+
+9. git checkout -b Bug1, git checkout -b Bug1
+
+
+ 10-11. C:\Users\mario\SI_2024_lab1_223188>git add SILab1_1.java
+     C:\Users\mario\SI_2024_lab1_223188>git commit -m "Fix wrong condition in filterOddLengthStrings"
+     [Bug1 4ed22fb] Fix wrong condition in filterOddLengthStrings
+     1 file changed, 1 insertion(+), 1 deletion(-)
+
+12-13. C:\Users\mario\SI_2024_lab1_223188>git add SILab1_2.java
+   C:\Users\mario\SI_2024_lab1_223188>git commit -m "Fix wrong condition in makeBigStringFrom"
+   [bug2 8fb13a4] Fix wrong condition in makeBigStringFrom
+   1 file changed, 1 insertion(+), 1 deletion(-)
+
+14.C:\Users\mario\SI_2024_lab1_223188>git checkout Bug1
+
+15. C:\Users\mario\SI_2024_lab1_223188>git add SILab1Main.java
+    C:\Users\mario\SI_2024_lab1_223188>git commit -m "Call method filterOddLengthStrings in main class"
+    [Bug1 ae38041] Call method filterOddLengthStrings in main class
+    1 file changed, 1 insertion(+)
+
+
+16-17. C:\Users\mario\SI_2024_lab1_223188>git checkout bug2
+
+18.  C:\Users\mario\SI_2024_lab1_223188>git push origin Bug1
+     C:\Users\mario\SI_2024_lab1_223188>git push origin Bug1
+
+19.  C:\Users\mario\SI_2024_lab1_223188>git checkout master
+
+20.  C:\Users\mario\SI_2024_lab1_223188>git merge Bug1
+
+21.  C:\Users\mario\SI_2024_lab1_223188>git merge origin/master
+     C:\Users\mario\SI_2024_lab1_223188>git merge origin/Bug1
+     C:\Users\mario\SI_2024_lab1_223188>git merge origin/bug2 (tuka nastanuva konflikt)
+
+22. C:\Users\mario\SI_2024_lab1_223188>git checkout bug2
+
+23. C:\Users\mario\SI_2024_lab1_223188>git rebase master
+
+24. C:\Users\mario\SI_2024_lab1_223188>git checkout master
+
+25. C:\Users\mario\SI_2024_lab1_223188>git merge bug2
+
+26. C:\Users\mario\SI_2024_lab1_223188>git push origin master
+
+27. Go srediv konflikot so bug2 grankata i ne bese potrebno da pravam --force
+
+28. C:\Users\mario\SI_2024_lab1_223188>echo. > logs.txt
+    
